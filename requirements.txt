@@ -1,2 +1,3 @@
 Markdown
 pyYaml
+mdx_wikilink_plus
