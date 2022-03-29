@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = "0.0.1"
+version = "0.1.0"
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -16,7 +16,7 @@ setup(
     packages=find_packages(),
     install_requires=required,
     license="AGPL",
-    keywords="obsidian, obsidian.md, mkdocs, file, embed, cite, quote",
+    keywords="mkdocs, custom_fences, pymdownx, markdown extension, markdown, md",
     classifiers=[
         "Natural Language :: English",
         "Natural Language :: French",
