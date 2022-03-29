@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 /.idea/.gitignore
 /.idea/markdown.xml
-/docs/screenshot/md_render.png
 /.idea/misc.xml
 /.idea/mkdocs_custom_fences.iml
 /.idea/modules.xml
