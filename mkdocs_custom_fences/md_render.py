@@ -7,6 +7,7 @@ import yaml
 import re
 from collections import OrderedDict
 
+
 def md_sub_render(src="", language="", class_name=None, options=None, md="", **kwargs):
     """Formatter wrapper."""
     try:
@@ -21,10 +22,12 @@ def md_sub_render(src="", language="", class_name=None, options=None, md="", **k
                 "sane_lists",
                 "tables",
                 "admonition",
-                "mdx_wikilink_plus"]
+                "mdx_wikilink_plus",
+            ],
         )
         return md
     except Exception:
         import traceback
+
         print(traceback.format_exc())
         raise
