@@ -5,7 +5,7 @@ This package is for mkdocs and include some "code snippet" to create custom fenc
 For the moment, it includes only [md_render](#Markdown-Render).
 
 # Get started
-`pip install mkdocs_custom_fences`
+`pip install mkdocs_custom_fences`  
 After the installation you should be able to access the extensions in `mkdocs.yml` using `mkdocs_custom_fences.file.class`. See below for more information using configuration. 
 
 ## Mkdocs configuration
