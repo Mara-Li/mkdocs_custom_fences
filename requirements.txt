@@ -1,4 +1,4 @@
 Markdown
 pyYaml
-mdx-wikilink-plus-fork
+mdx-wikilink-plus
 pymdown-extensions
